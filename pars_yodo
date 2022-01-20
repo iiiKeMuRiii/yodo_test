@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Странно выкладывать на git простейший однострочный скрипт!!!
+
+awk '/^s/ {print $1} BEGIN {print "Name"}' list.txt 
